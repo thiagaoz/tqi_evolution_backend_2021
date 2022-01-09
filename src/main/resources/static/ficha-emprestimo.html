@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script type = "text/javascript" src="scripts.js"> 	</script>
+		<title>Pedir Empréstimo</title>
+		Preencha o Formulário:
+	</head>
+	<body>
+		<br>
+		<button id="btnLogout2" name="btnLogout" onclick="location.href='http://localhost:8080/logout'">Logout</button>
+		<div>
+			<form id="form-emprestimo">
+				<label for="valor">Valor R$:</label>
+				<input type="number" name="valor" id="valor" min="1" placeholder="1234567,89">
+				<br>
+				<br>
+				<label for="parcelas">Parcelas </label>
+				<input type="text" name="parcelas" id="parcelas" value="10">
+				<br><br>
+				<label for="primeira_parcela">Data da Primeira Parcela</label>
+				<input type="text" name="primeira-parcela" id="primeira-parcela" value="2022-02-01"> EX: AAAA/MM/DD
+			</form>
+		</div>
+		<button id="btnPedir" name="btnPedir" onclick="pedir_emprestimo()">Pedir</button>
+		<br><br><br>
+        <button id="btnCliente" name="btnCliente" onclick="location.href='/cliente.html'">Retornar ao Perfil</button>
+
+	</body>
+</html>

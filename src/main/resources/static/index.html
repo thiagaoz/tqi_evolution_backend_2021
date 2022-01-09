@@ -1,0 +1,52 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="styles.css">
+		<br>
+		<title>EMPRÉSTIMOS NOW</title>
+	</head>
+	<body>
+		<h2>EMPRÉSTIMOS NOW</h2>
+		Empréstimos na hora!
+		Cadastre-se:
+		<br>
+		<script src="scripts.js"></script>
+		<br>
+		<div>
+			<form id="form-cadastro">
+				<label for="email">EMAIL</label>
+				<input type="text" name="email" id="email" value="">
+				<br>
+				<br>
+				<label for="senha">SENHA</label>
+				<input type="password" name="senha" id="senha" value="">
+				<br><br>
+				<label for="nome">NOME</label>
+				<input type="text" name="nome" id="nome" value="">
+				<br><br>
+				<label for ="renda">RENDA R$</label> 
+				<input type="number" name="renda" id="renda"> Ex: 123456,78
+				<br><br>
+				<label for ="cpf">CPF</label>
+				<input type="number" name ="cpf" id="cpf">
+				<br><br>
+				<label for ="rg">RG</label>
+				<input type="number" name ="rg" id="rg">
+				<br><br>
+				<label for ="endereco">ENDEREÇO</label>
+				<br>
+				<input type="text" name ="endereco" id="endereco" size="50" >
+
+			</form>
+		</div>
+		<button id="btnCadastrar" name="btnCadastrar" onclick="cadastrar()">CADASTRAR</button>
+		<br><br><br>
+		<br>
+		<label for="login">Já possui cadastro?    </label>
+		<br>
+		<br>
+		<button id="btnLogin" name="login" onclick="location.href='http://localhost:8080/login'">LOGIN</button>
+		<br>
+
+
+	</body>
+</html>

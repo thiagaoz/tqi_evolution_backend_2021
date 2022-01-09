@@ -1,0 +1,51 @@
+html, body {
+    height: 80%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    border-radius: 8%;
+    border: 0px;
+    padding: 10px;
+    background-color:limegreen;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+#btnLogin, #btnPedir{
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
+#emprestimo_div button{
+	margin-right: 50px;
+	margin-top: 10px;
+	vertical-align:left;
+}
+
+#btnLogout{
+    position: relative;
+    bottom: 50px;
+    left: 400px;
+}
+
+#btnLogout2{
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+}
+
+#btnCadastrar, #btnCliente, #btnPedir{
+    position: relative;
+    left: 120px;
+}
